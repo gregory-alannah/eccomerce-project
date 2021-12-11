@@ -89,15 +89,20 @@ header {
     color: #fff;
 }
 
+
+/*Social media icons*/
 .facebook, .twitter, .instagram, .tumbler, .pinterest {
     display: inline-block;
-    padding: 35px
+    padding: 50px;
 }
 
+/*Footer*/
 .copyright {
     color: rgba(192, 192, 192, 0.308);
-    text-align: right;
+    text-align: center;
     font-size: 33px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ccc;
 }
 
 
