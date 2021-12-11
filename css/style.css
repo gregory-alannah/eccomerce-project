@@ -1,0 +1,103 @@
+/*All elements in each page*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: gothic;
+   
+    
+}
+
+body {
+    background-color: #000;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 100, 0.4);
+    height: 100vh;
+}
+
+.videoBackground {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .videoBackground {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .videoBackground {
+        width: auto;
+        height: 100%;
+    }
+
+}
+
+.isaijiLogo {
+    margin: 100px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.artistName {
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    top: 10px;
+}
+
+.artistName h1 {
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+
+.btn {
+    font-size: 22px;
+    color: #fff;
+    margin: 5pc;
+    padding: 7px 22px;
+
+}
+
+
+.btn a:hover {
+    background-color: #000;
+}
+
+.about {
+    color: #fff;
+}
+
+.facebook, .twitter, .instagram, .tumbler, .pinterest {
+    display: inline-block;
+    padding: 35px
+}
+
+.copyright {
+    color: rgba(192, 192, 192, 0.308);
+    text-align: right;
+    font-size: 33px;
+}
+
+
