@@ -21,7 +21,7 @@ header {
 
 .productsMenu {
     position: sticky;
-    background-color: #ccc;
+    background-color: rgba(85, 85, 85, 0.719);
     margin: 0px;
     top: 0px;
     overflow: hidden;
@@ -101,3 +101,4 @@ footer{
     text-shadow: 2px 2px #ccc;
 
 }
+
