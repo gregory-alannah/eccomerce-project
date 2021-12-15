@@ -9,7 +9,7 @@ header {
     background-color: #000;
     padding: 6px 24px;
     text-align: left;
-    color: white;
+    color: #fff;
     margin: 0px;
     letter-spacing: 1px;
     font: caption;
@@ -21,7 +21,7 @@ header {
 
 .productsMenu {
     position: sticky;
-    background-color: rgba(85, 85, 85, 0.719);
+    background-color:navy;
     margin: 0px;
     top: 0px;
     overflow: hidden;
@@ -45,7 +45,8 @@ header {
     display: inline-block;
     text-align: center;
     padding: 16px 24px;
-    color: #f2f2f2;
+    color: #fff;
+    font-weight: bolder;
 
 }
 
@@ -64,7 +65,7 @@ header {
     padding: 30px;
 }
 
-/*Images centered*/ **/
+/*Images centered*/ 
 
 .one, .two, .three, .four, 
 .five, .six, .seven, .eight, 
@@ -94,11 +95,10 @@ footer{
 }
 
 .copyright {
-    color: rgba(192, 192, 192, 0.308);
+    color: #fff;
     text-align: right;
     font-size: 33px;
     text-transform: uppercase;
-    text-shadow: 2px 2px #ccc;
 
 }
 
@@ -113,9 +113,12 @@ footer{
     }
 }   
 /*Media querys*/
+/**
 @media screen and (min-width: 800px) {
     h3 {
         color: #fff;
         text-align: center;
     }
 }
+
+**/

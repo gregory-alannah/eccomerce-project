@@ -81,11 +81,10 @@ header {
 
 /*Footer*/
 .copyright {
-    color: rgba(192, 192, 192, 0.308);
+    color: #fff;
     text-align: right;
     font-size: 33px;
     text-transform: uppercase;
-    text-shadow: 2px 2px #ccc;
 }
 
 /*Media querys - For most screens*/
