@@ -83,9 +83,11 @@
 
 }
 
+/*Had to add padding; on my home page and contact page it's fine but you could see white space. */
 footer{
     background-color: #000;
     text-align: center;
+    padding: 35px;
 }
 
 .facebook, .twitter, .instagram, 
@@ -120,15 +122,23 @@ input, label, textarea {
     text-transform: uppercase;
       }
     
-    /*Changing the colors with background and the text*/
-    .submitButton {
+/*Changing the colors with background and the text*/
+.submitButton {
       background-color: #000;
       color: #fff;
     }
 
-    .submitForm {
+.submitForm {
         max-width: 300px;
         margin: 1rem auto;
         border: 5px solid rgb(22, 19, 207);
         padding: 2rem;
-        }
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+        color: #fff;
+        text-align: center;
+    }
+
+}

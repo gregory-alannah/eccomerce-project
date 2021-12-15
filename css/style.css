@@ -88,7 +88,7 @@ header {
     text-shadow: 2px 2px #ccc;
 }
 
-/*Media querys*/
+/*Media querys - For most screens*/
 @media (min-aspect-ratio: 16/9) {
     .videoBackground {
         width: 100%;
